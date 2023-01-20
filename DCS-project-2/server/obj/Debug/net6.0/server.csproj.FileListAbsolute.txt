@@ -1,0 +1,15 @@
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/bin/Debug/net6.0/server
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/bin/Debug/net6.0/server.deps.json
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/bin/Debug/net6.0/server.runtimeconfig.json
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/bin/Debug/net6.0/server.dll
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/bin/Debug/net6.0/server.pdb
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/obj/Debug/net6.0/server.csproj.AssemblyReference.cache
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/obj/Debug/net6.0/server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/obj/Debug/net6.0/server.AssemblyInfoInputs.cache
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/obj/Debug/net6.0/server.AssemblyInfo.cs
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/obj/Debug/net6.0/server.csproj.CoreCompileInputs.cache
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/obj/Debug/net6.0/server.dll
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/obj/Debug/net6.0/refint/server.dll
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/obj/Debug/net6.0/server.pdb
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/obj/Debug/net6.0/server.genruntimeconfig.cache
+/Users/nindaba/Documents/vistula/distributed-systemes/labs/projects/sockets/server/obj/Debug/net6.0/ref/server.dll
