@@ -7,12 +7,12 @@ Rashi Sonavani 56480
 Manthan Pathak 56458
 '''
 
-from threading import Thread, Condition
+from threading import Thread, Semaphore
 import time
 import random
 
 buffer = []
-nonEmpty = Condition()
+nonEmpty = Semaphore(2);
 
 class ProducerThread(Thread):
     def run(self):
@@ -23,7 +23,6 @@ class ProducerThread(Thread):
             num = random.choice(nums)
             buffer.append(num)
             print ("Produced", num)
-            nonEmpty.notify()
             nonEmpty.release()
             time.sleep(random.randint(2,5))
 
@@ -33,13 +32,9 @@ class ConsumerThread(Thread):
         global buffer
         while True:
             nonEmpty.acquire()
-            if not buffer:
-                print ("Nothing in buffer, consumer is waiting")
-                nonEmpty.wait()
-                print ("Producer added something to buffer and notified the consumer")
-            num = buffer.pop(0)
-            print("Consumed", num)
-            nonEmpty.notify()
+            if len(buffer) > 0:
+                num = buffer.pop(0)
+                print("Consumed", num)
             nonEmpty.release()
             time.sleep(random.randint(0,5))
 
